@@ -1,0 +1,47 @@
+.nigerTitle{
+    width: 100%;
+    margin: 2% 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nigerTitle:after {
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 140px;
+}
+.nigerTitle:before {
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 140px;
+}
+
+.ethnie:before{
+    /*✅*/
+    content: '✔︎';
+}
+
+
+
+
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+    display: block;
+}
+
+.thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
